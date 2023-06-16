@@ -1,0 +1,155 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background: #3f3f3f ;
+     
+  }
+  
+  header {
+    text-align: center;
+    margin: 2rem auto 3rem;
+    opacity: 0.8;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  span {
+    font-size: 1.2rem;
+    opacity: 0.7;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    position: relative;
+    width: 15em;
+    height: 20rem;
+    background: #969c9c;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+  }
+  
+  .circle {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7.5rem;
+    height: 7.5rem;
+    background: conic-gradient(#8f9bde, #d68899, #d2a191, #d68899, #8f9bde);
+    filter: blur(1px);
+    border-radius: 50%;
+    transition: all 0.2s linear;
+  }
+  
+  .nonagon {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7.5rem;
+    height: 7.5rem;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    transition: all 0.1s linear;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sheet {
+    background-color: #3d9970;
+    color: #fff;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .sheet:hover {
+    background-color: #2ecc71;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .meet {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .meet:hover {
+    background-color: #2980b9;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128c7e;
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://sandbox1.mahat.ai/clap/images/swan.svg" alt="Logo">
+        <h1 id="current-time"> </h1>
+        <h1>Time to Status call</h1>
+        <span>Start activities</span>
+        
+    </header>
+    <section>
+        <div class="card left">
+            <div class="nonagon"></div>
+            <div class="circle"></div>
+            <a href="https://docs.google.com/spreadsheets/d/1KvM0X6cglgoQrTC8ye338xaFjOPH28AlNb9tHjFdSIg/edit#gid=965487858">
+                <button class="sheet">Update status</button>
+            </a>
+        </div>
+
+        <div class="card middle">
+            <div class="circle"></div>
+            <div class="nonagon"></div>
+            <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGExNjQyZTItMzIxYy00ZDVlLWE0NWYtYjQwZjM5ZTA4OTRl%40thread.v2/0?context=%7b%22Tid%22%3a%227f1f44be-64a4-4212-a4c8-801bc9f4ef52%22%2c%22Oid%22%3a%22a23bf5d2-2a51-437b-9581-27b2342bc354%22%7d" target="_blank" class="meet-link">
+                <button class="meet">Join Meet</button>
+            </a>
+        </div>
+
+        <div class="card right">
+            <div class="circle left"></div>
+            <div class="nonagon"></div>
+            <div class="circle right"></div>
+            <a href="https://chat.whatsapp.com/H8xCwmHc4vbLfjI36zd3zL">
+            <button class="whatsapp-button" >Message in group</button>
+        </a>
+        </div>
+    </section>
+    
+</body>
+<script>
+    function updateTime() {
+        // Get the current time
+        var currentTime = new Date();
+
+        // Format the time as per your requirement
+        var formattedTime = currentTime.toLocaleTimeString();
+
+        // Display the current time in the HTML element
+        document.getElementById("current-time").textContent = formattedTime;
+    }
+
+    // Update the time every second
+    setInterval(updateTime, 1000);
+</script>
+
+</html>
